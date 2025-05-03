@@ -1,0 +1,9 @@
+{{ object.title }}
+{{ object.company_title }}
+{{ object.location }}
+{{ object.description }}
+{{ object.formatted_skills_desc }}
+{{ object.pay_period }}
+{{ object.max_salary }}
+{{ object.work_type }}
+{{ object.formatted_applies }}

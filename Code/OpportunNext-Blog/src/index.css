@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/src/assets/Fonts/Dosis-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.learn-more-button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 8px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Set the button color and hover effect */
+  .learn-more-button:hover {
+    background-color: var(--darker-color);
+  }
+  
+  .learn-more-button[data-button-color="#bbdefb"] {
+    --darker-color: #90caf9;
+  }
+  
+  .learn-more-button[data-button-color="#ffe0b2"] {
+    --darker-color: #ffb74d;
+  }
+  
+  .learn-more-button[data-button-color="#c8e6c9"] {
+    --darker-color: #a5d6a7;
+  }
+  
+  .learn-more-button[data-button-color="#e1bee7"] {
+    --darker-color: #ce93d8;
+  }
+  
